@@ -32,7 +32,7 @@ list Block blocks;
 %define PLAYER_BLOCK blocks[1]
 %define ACTIVE_BLOCK blocks[active_block]
 
-list leveldata = file```leveldata.txt```;
+list leveldata "leveldata.txt";
 
 var time = 0;
 var cell_size = 48;
